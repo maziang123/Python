@@ -1338,7 +1338,7 @@ timeline.render("timeline.html")
 
 ### 13.1.初始对象
 
-![image-20250706194341116](../images/image-20250706194341116.png)
+![image-20250706194341116](/images/image-20250706194341116.png)
 
 ~~~py
 # 设计一个类
@@ -1371,9 +1371,9 @@ print(stu1.native_place)
 
 ### 13.2.类的成员方法
 
-![image-20250706194944734](../images/image-20250706194944734.png)
+![image-20250706194944734](/images/image-20250706194944734.png)
 
-![image-20250706195249239](../images/image-20250706195249239.png)
+![image-20250706195249239](/images/image-20250706195249239.png)
 
 ~~~python
 # 设计一个类
@@ -1407,7 +1407,7 @@ stu1.say_hello("我是练习时长两年半的练习生")
 
 ### 13.3.类和对象
 
-![image-20250707150249910](../images/image-20250707150249910.png)
+![image-20250707150249910](/images/image-20250707150249910.png)
 
 ~~~py
 # 设计一个闹钟类
@@ -1430,7 +1430,7 @@ clock2.ring()
 
 ### 13.4.构造方法
 
-![image-20250707151507582](../images/image-20250707151507582.png)
+![image-20250707151507582](/images/image-20250707151507582.png)
 
 ~~~py
 class Student:
@@ -1551,7 +1551,7 @@ print(stu == stu2)
 
 ### 13.6.封装
 
-![image-20250707190520966](../images/image-20250707190520966.png)
+![image-20250707190520966](/images/image-20250707190520966.png)
 
 私有变量无法赋值，也无法获取
 
@@ -1610,7 +1610,7 @@ phone.call_by_5g()
 
 * 单继承：一个子类继承了一个父类
 
-  ![image-20250707194004674](../images/image-20250707194004674.png)
+  ![image-20250707194004674](/images/image-20250707194004674.png)
 
 ~~~py
 class Phone:
@@ -1639,7 +1639,7 @@ phone2022.call_by_5g()
 
 * 多继承：
 
-  ![image-20250707194608264](../images/image-20250707194608264.png)
+  ![image-20250707194608264](/images/image-20250707194608264.png)
 
 ~~~py
 # 手机类
@@ -1685,7 +1685,7 @@ my_phone().write_card()
 my_phone().call_by_4g()
 ~~~
 
-![image-20250707195748835](../images/image-20250707195748835.png)
+![image-20250707195748835](/images/image-20250707195748835.png)
 
 
 
@@ -1720,7 +1720,7 @@ phone.call_by_5g()
 
 调用父类成员:
 
-![image-20250708150832722](../images/image-20250708150832722.png)
+![image-20250708150832722](/images/image-20250708150832722.png)
 
 ~~~py
 # 手机类
@@ -1774,9 +1774,9 @@ phone.call_by_5g()
 
 ### 13.9.类型注解
 
- ![image-20250708152522823](../images/image-20250708152522823.png)
+ ![image-20250708152522823](/images/image-20250708152522823.png)
 
-![image-20250708152639589](../images/image-20250708152639589.png)
+![image-20250708152639589](/images/image-20250708152639589.png)
 
 ~~~ py
 var_1: int = 10
@@ -1795,15 +1795,15 @@ class Student:
 stu: Student = Student()
 ~~~
 
-![image-20250708152917846](../images/image-20250708152917846.png)
+![image-20250708152917846](/images/image-20250708152917846.png)
 
-![image-20250710152455157](../images/image-20250710152455157.png)
+![image-20250710152455157](/images/image-20250710152455157.png)
 
 
 
 ### 13.10.函数和方法的类型注解
 
-![image-20250710153450693](../images/image-20250710153450693.png)
+![image-20250710153450693](/images/image-20250710153450693.png)
 
 ~~~py
 def add(x: int, y: int) -> int:
@@ -1818,9 +1818,9 @@ def subtract(x: int, y: int) -> int:
 
 ### 13.11.Union类型
 
-![image-20250710154254150](../images/image-20250710154254150.png)
+![image-20250710154254150](/images/image-20250710154254150.png)
 
-![image-20250710154341093](../images/image-20250710154341093.png)
+![image-20250710154341093](/images/image-20250710154341093.png)
 
 ~~~py
 from typing import Union
@@ -1837,7 +1837,7 @@ def func(data: Union[int, str]) -> Union[int, str]:
 
 **多态：指的是多种状态，即完成某个行为时，使用不同的对象会得到不同的状态**
 
-![image-20250710155218802](../images/image-20250710155218802.png)
+![image-20250710155218802](/images/image-20250710155218802.png)
 
  ~~~py
  class Animal:
@@ -1867,7 +1867,7 @@ def func(data: Union[int, str]) -> Union[int, str]:
  make_noise(cat)
  ~~~
 
-![image-20250710160127750](../images/image-20250710160127750.png)
+![image-20250710160127750](/images/image-20250710160127750.png)
 
 
 
@@ -1879,15 +1879,15 @@ mysql -uroot -p
 
 进入My SQL
 
-![image-20250717234404379](../images/image-20250717234404379.png)
+![image-20250717234404379](/images/image-20250717234404379.png)
 
-![image-20250717234521726](../images/image-20250717234521726.png)
+![image-20250717234521726](/images/image-20250717234521726.png)
 
 
 
 ### 14.2.SQL基础和DDL
 
-![image-20250719193933941](../images/image-20250719193933941.png)
+![image-20250719193933941](/images/image-20250719193933941.png)
 
 1..SQL语句大小写不敏感
 
@@ -1953,7 +1953,7 @@ create table 表名称(
 )
 ~~~
 
-![image-20250719201103433](../images/image-20250719201103433.png)
+![image-20250719201103433](/images/image-20250719201103433.png)
 
 
 
@@ -1987,7 +1987,7 @@ insert into student(id, name, age) values(1, '周杰伦', 31),
 delete from 表名称 [where 条件判断]
 ~~~
 
-![image-20250719214402320](../images/image-20250719214402320.png)
+![image-20250719214402320](/images/image-20250719214402320.png)
 
 ~~~sql
 -- 例：
@@ -2014,7 +2014,7 @@ update student set age = 29 where name='林俊杰';
 
 ### 14.4.SQL --- DQL
 
-![image-20250721174743754](../images/image-20250721174743754.png)
+![image-20250721174743754](/images/image-20250721174743754.png)
 
 #### 1.基础查询
 
@@ -2044,7 +2044,7 @@ select * from student where age > 31;
 select 字段|聚合函数 from 表 [where 条件] group by 列
 ~~~
 
-![image-20250721173609158](../images/image-20250721173609158.png)
+![image-20250721173609158](/images/image-20250721173609158.png)
 
 ~~~sql
 -- 例：
@@ -2302,6 +2302,7 @@ if __name__ == '__main__':
     print(read_json("2011年2月销售数据JSON.txt")[0]['date'])
 
 ~~~
+
 
 
 
